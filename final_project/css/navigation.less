@@ -1,0 +1,67 @@
+/*Navigation for portfolio*/
+
+@font1: 'Kaushan Script';
+@font2: 'Rajdhani';
+
+@import "palette.less";
+
+/*style*/
+nav {
+ box-sizing: border-box;
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ padding: 2.75px 60px 2.75px;
+ text-align: center;
+ background-color: @color3;
+ opacity: 0.6;
+ font-size: 15px;
+ letter-spacing: 1px;
+}
+a {
+  text-decoration: none;
+  font-family: @font2;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  color: @color4;
+  padding: 1px 0;
+  margin: 0 10px;
+  transition: all 0.15s ease-in-out;
+}
+.about.is-current,
+.about:hover {
+   color: @color1;
+}
+.projects.is-current,
+.projects:hover {
+  color: @color1;
+    
+}.contact.is-current,
+.contact:hover {
+  color: @color1;
+}
+
+/*margins and colors for h2 sections*/
+.wide {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  min-height: 100vh;
+}
+#about {
+  background-color: #FFFFFF;
+}
+#projects {
+  background-color: #ffffff;
+}
+#contact {
+  background-color: #ffffff;
+}
+
+
+/*Scrolling Navigation*/
+
+/*end scrolling navigation*/
