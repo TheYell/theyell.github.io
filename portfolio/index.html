@@ -97,19 +97,19 @@
         <!-- Contact form -->
                  
             <div id="form">
-            <form id="contact" action="/action_page.php" method="post">
+            <form id="contact" name="myemailform" action="form-to-email.php" method="post">
                 
-            <label>Your Name:</label> <br/>
-            <input type="text" id="name" name="name" placeholder="Your name..." required>  <br><br>
+            <label>Name:</label> <br/>
+            <input type="text" id="name" name="name" placeholder="Please enter your name here" required>  <br><br>
                 
-            <label>Your E-Mail:</label> <br/>
-            <input type="email" id="email" placeholder="Your email..." required><br><br>
+            <label>E-Mail:</label> <br/>
+            <input type="email" id="email" placeholder="Please enter your email address here" required><br><br>
                 
             <label>Optional Web Address:</label> <br/>
-            <input type="url" id="website" name="website" placeholder="Your URL..."><br><br>
+            <input type="url" id="website" name="website" placeholder="Your business website is optional"><br><br>
                 
-            <label>Comments:</label> <br/>
-            <textarea rows="7" cols="35" id="comment" name="comment" placeholder="Questions, comments, concerns..." required></textarea><br>
+            <label>Message:</label> <br/>
+            <textarea rows="7" cols="35" id="message" name="message" placeholder="Please enter your message here" required></textarea><br>
                 
             <button name="submit" type="submit" id="submit" data-submit="...Sending">Submit</button>
                 
