@@ -64,7 +64,7 @@ h1 {
 /*Hero Image, section divider*/
 .hero-image2 {
   /* The image used */
-  background-image: url(../images/computer6.jpeg);
+  background-image: url(.. /images/computer6.jpeg);
   /* Set a specific height */
   height: 50%;
   /* Position and center the image to scale nicely on all screens */
