@@ -2,6 +2,11 @@
 /*CSS for Portfolio*/
 /*Color Palette*/
 /*Blues*/
+.thumbnail {
+  margin-left: 0.8em;
+  border: 1px solid #223840;
+  border-radius: 4px;
+}
 body {
   margin: 0;
 }
@@ -103,28 +108,40 @@ h4 {
   height: 12em;
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: 2em;
+  margin-left: 0.8em;
+  border: 1px solid #223840;
+  border-radius: 4px;
 }
 .img213 {
   width: 18em;
   height: 13em;
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: 2em;
+  margin-left: 0.8em;
+  border: 1px solid #223840;
+  border-radius: 4px;
+}
+/* Add a hover effect (blue shadow) */
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 .img242 {
   width: 12em;
   height: 25em;
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: 2em;
+  margin-left: 0.8em;
+  border: 1px solid #223840;
+  border-radius: 4px;
 }
 .img280 {
   width: 13em;
   height: 25em;
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: 2em;
+  margin-left: 0.8em;
+  border: 1px solid #223840;
+  border-radius: 4px;
 }
 .p3 {
   color: black;
