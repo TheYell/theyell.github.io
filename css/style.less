@@ -16,26 +16,23 @@ body{
     margin: 0;
 }
 main{
-    padding: 1.5em;
+    padding: 1em;
 }
 
 /*Navigation has own sheet*/
 
 /*Hero Image, Header*/
-.hero-image1 {
-    /* The image used */
+/*.hero-image1 {
+    
     background-image: url(../images/tabor77.jpg);
-
-    /* Set a specific height */
-    height: 50%;
-
-    /* Position and center the image to scale nicely on all screens */
+    height: 50px;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    background-attachment: fixed;
     padding-bottom: 70%;
-}
+}*/
 
 /*text on hero image*/
 h1 {
@@ -123,7 +120,7 @@ h4{
     text-decoration: underline;
 }
 img:hover {
-    box-shadow: 0 0 2px 1px @color5;
+    box-shadow: 0 0 3px 2px @color5;
 }
 .img215{
     width:10em;
@@ -244,8 +241,8 @@ input, select {
 }
 
 
-/* Tablet CSS code and up */
-@media only screen and (min-width: 481px) {
+/* Tablet */
+@media only screen and (min-width: 600px) {
     #close{
     clear: both;
 }
@@ -261,7 +258,7 @@ input, select {
     }
 }
 
-/* Desktop CSS code and up */
+/* Desktop */
 @media only screen and (min-width: 1024px) {
     #close{
     clear: both;
