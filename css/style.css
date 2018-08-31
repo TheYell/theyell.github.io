@@ -6,25 +6,25 @@
   margin-left: 0.8em;
   border: 1px solid #223840;
   border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 body {
   margin: 0;
 }
 main {
-  padding: 1.5em;
+  padding: 1em;
 }
 /*Navigation has own sheet*/
 /*Hero Image, Header*/
 .hero-image1 {
-  /* The image used */
   background-image: url(../images/tabor77.jpg);
-  /* Set a specific height */
-  height: 50%;
-  /* Position and center the image to scale nicely on all screens */
+  height: 50px;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  background-attachment: fixed;
   padding-bottom: 70%;
 }
 /*text on hero image*/
@@ -69,7 +69,7 @@ h1 {
 /*Hero Image, section divider*/
 .hero-image2 {
   /* The image used */
-  background-image: url(.. /images/computer6.jpeg);
+  background-image: url(../images/computer6.jpeg);
   /* Set a specific height */
   height: 50%;
   /* Position and center the image to scale nicely on all screens */
@@ -103,45 +103,44 @@ h4 {
   margin-left: 1.5em;
   text-decoration: underline;
 }
+img:hover {
+  box-shadow: 0 0 3px 2px #7cd6e5;
+}
 .img215 {
   width: 10em;
   height: 12em;
-  background-repeat: no-repeat;
-  background-position: center;
   margin-left: 0.8em;
   border: 1px solid #223840;
   border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .img213 {
   width: 18em;
   height: 13em;
-  background-repeat: no-repeat;
-  background-position: center;
   margin-left: 0.8em;
   border: 1px solid #223840;
   border-radius: 4px;
-}
-/* Add a hover effect (blue shadow) */
-img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .img242 {
   width: 12em;
   height: 25em;
-  background-repeat: no-repeat;
-  background-position: center;
   margin-left: 0.8em;
   border: 1px solid #223840;
   border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .img280 {
   width: 13em;
   height: 25em;
-  background-repeat: no-repeat;
-  background-position: center;
   margin-left: 0.8em;
   border: 1px solid #223840;
   border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .p3 {
   color: black;
@@ -227,8 +226,8 @@ select {
   border-radius: 4px;
   cursor: pointer;
 }
-/* Tablet CSS code and up */
-@media only screen and (min-width: 481px) {
+/* Tablet */
+@media only screen and (min-width: 600px) {
   #close {
     clear: both;
   }
@@ -243,7 +242,7 @@ select {
     font-size: 1.25em;
   }
 }
-/* Desktop CSS code and up */
+/* Desktop */
 @media only screen and (min-width: 1024px) {
   #close {
     clear: both;
