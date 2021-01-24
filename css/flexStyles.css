@@ -1,0 +1,46 @@
+/*Flexboxes for project examples*/
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0.25em;
+	margin: 0.5em;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float: left;
+	margin: 0.5em;
+    height: 15em;
+    border: solid 0.1em #000000;
+    background-color: #ffffff;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    padding: 1em;
+  }
+/*.col:first-child { margin-left: 1em; }*/
+
+.col:hover{
+    border-radius: 1em;
+    border-color: #5ab3d5;
+}
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+
+/*  GRID OF TWO  */
+.span_1_of_2 { width: 45%; }
+.span_2_of_2 { width: 45%; }
+
+
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
