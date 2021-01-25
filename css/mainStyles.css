@@ -1,12 +1,17 @@
 /* Main CSS*/
+*{
+    box-sizing: border-box;
+}
 
 html{
     scroll-behavior: smooth;
 }
 
 body{
-    display: block;
-}
+   /* display: block;*/
+    overflow-x: hidden;
+    width: 100%;
+ }
 
 main{
     padding: 3em 0 3em 0;
@@ -91,4 +96,17 @@ p{
 
 footer{
     text-align: center;
+}
+
+
+
+@media screen and (max-width: 600px){
+    
+    #section1 {
+        padding: 5em 0 3em 0;
+    }
+
+    #section2 {
+        padding: 5em 0 4em 0;
+    }
 }
