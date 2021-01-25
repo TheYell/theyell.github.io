@@ -25,12 +25,12 @@ a {
     color: #6991ac;
     padding: 1px 0;
     margin: 0 10px;
-    transition: all 0.15s ease-in-out;
 }
 
 #section0 a:hover {
     background-color: gainsboro;
     border-radius: 0.5em;
+    padding: 0.2em;
 }
 
 .sticky {
